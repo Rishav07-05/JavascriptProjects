@@ -1,0 +1,38 @@
+body{
+background-color: rgb(13, 47, 73);
+color: rgb(38, 255, 0);
+}
+
+
+.nav{
+    display: flex;
+    justify-content:flex-end;
+    gap:26px;
+}
+
+.button,#Pink{
+    background-color: rgb(204, 37, 149);
+    margin: 18px;
+    padding: 17px;
+    border: 3px rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+#Red{
+    background-color: red;
+}
+
+#Blue{
+    background-color: blue;
+}
+#Orange{
+    background-color: rgb(255, 111, 0);
+}
+#Yellow{
+    background-color: rgb(255, 208, 0);
+}
+
+.canvas{
+    text-align: center;
+}
+

@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(84, 12, 12);
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpapercave.com/wp/wp6439046.jpg);
+}
+
+.all{
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(255, 156, 196, 0);
+    width: 24%;
+    height:50%;
+    border-radius: 20px;
+    border: 1px solid rgb(180, 178, 178);
+}
+
+.justUpperPart{
+    text-align: center;
+    color: rgb(17, 251, 114);
+}
+
+.guessingPart{
+    text-align: center;
+    color: rgb(240, 200, 147);
+}
+
+#subm{
+    margin: 15px;
+    border-radius: 5px;
+    background-color: rgb(28, 231, 28);
+    font-size: 14px;
+}
+
+#userGuess{
+    border-radius: 7px;
+}
+
+.cente{
+    display: flex;
+    justify-content: center;
+}
