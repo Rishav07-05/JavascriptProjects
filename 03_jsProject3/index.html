@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div id="initialContent" class="container">
+            <h1>Kindly Enter Your Date Of Birth</h1>
+        </div>
+        <div id="finalContent" class="container">
+            <div class="center">
+                <h1>How much life journey covered,till now :) </h1>
+            <div class="time-Container">
+                <h2>
+                    <div id="year">00</div>
+                    YEARS
+                </h2>
+                <h2>
+                    <div id="month">00</div>
+                    MONTHS
+                </h2>
+                <h2>
+                    <div id="day">00</div>
+                    DAY
+                </h2>
+                <h2>
+                    <div id="hour">00</div>
+                    HOURS
+                </h2>
+                <h2>
+                    <div id="minute">00</div>
+                    MINUTES
+                </h2>
+                <h2>
+                    <div id="second">00</div>
+                    SECONDS
+                </h2>
+            </div>
+            </div>
+        </div>
+        <div class="settingIcon">
+            <img id="settingImg" src="./images/gear (1).png" alt="Setting button" width="34px">
+            <div id="content" class="setting-Content hide">
+                <input type="date" id="dobInput">
+                <button id="dobButton">Add DOB</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
