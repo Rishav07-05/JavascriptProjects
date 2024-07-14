@@ -41,7 +41,7 @@ const updateAge = () => {
     const second = Math.floor((dateDiff/1000) % 60)
 
     yearEl.innerHTML = makeTwoDigit(year)
-    monthEl.innerHTML = makeTwoDigit(month)
+    monthEl.innerHTML = makeTwoDigit(month) - 2
     dayEl.innerHTML = makeTwoDigit(day)
     hourEl.innerHTML = makeTwoDigit(hour)
     minuteEl.innerHTML = makeTwoDigit(minute)
