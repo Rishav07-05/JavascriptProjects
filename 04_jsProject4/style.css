@@ -43,8 +43,8 @@ body{
 
         
 .main-btn{
-            background-color: rgb(231, 107, 142);
-            color: rgb(253, 248, 207);
+            background-color: rgb(77, 127, 188);
+            color: #fdcfdf;
             padding: .5rem 1rem;
             border: none;
             border-radius: 20px;
@@ -60,7 +60,9 @@ body{
     padding: 4rem 2rem;
     width: 90%;
     max-width: 50rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 173, 32, 0.29);
+    border-radius:30px;
 }
 
 
